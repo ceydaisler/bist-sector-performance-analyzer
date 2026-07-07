@@ -1,0 +1,10 @@
+Kategori,Hisse,Başlangıç Fiyatı,Güncel Fiyatı,Toplam Getiri(%),Günlük Ort. Getiri(%),Volatilite(Std.sapma)
+Bankacılık,İş Bankası,14.04,14.34,2.13,0.048,2.502
+Bankacılık,Yapı Kredi,38.68,37.46,-3.15,0.02,3.032
+Bankacılık,Garanti Bankası,144.46,133.7,-7.45,-0.03,2.543
+Savunma Sanayisi,ASELSAN,257.0,401.75,56.32,0.414,3.351
+Savunma Sanayisi,Katmerciler,3.17,2.66,-16.09,-0.108,2.55
+Savunma Sanayisi,Otokar,499.75,374.0,-25.16,-0.199,2.544
+Teknoloji,Karel,8.65,11.02,27.4,0.252,3.427
+Teknoloji,Mia Teknoloji,37.8,36.26,-4.07,0.036,3.767
+Teknoloji,logo Yazılım,151.32,136.4,-9.86,-0.059,2.198
