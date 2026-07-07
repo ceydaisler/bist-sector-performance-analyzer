@@ -126,7 +126,7 @@ Dosyasında tüm hisselere ait performans metrikleri bulunmaktadır.
 bist-sector-performance-analyzer/
 │
 ├── bist_sector_analyzer.py       # Ana analiz scripti
-├── requirements.txt              # Python bağımlılıkları
+├── requirements.txt              # Kullanılan kütüphaneler
 ├── bist_performance_summary.csv  # Performans sonuçları
 ├── *.png                         # Grafik çıktıları
 └── README.md
