@@ -29,12 +29,12 @@ CATEGORY_COLORS = {
 }
 
 def fetch_stock_data(ticker):
-    stock = yf.Ticker(ticker)  #Ticker ile hisseyi seçtiriyoruz
-    hist = stock.history(period=PERIOD)   #history ile de seçtirdiğimiz hissenin belırledıgımız sure aralıgındakı verılerılerını cekıyoruz
-    return hist   #burdaki hist yahoo dan gelen dataframe
+    stock = yf.Ticker(ticker)  
+    hist = stock.history(period=PERIOD)   
+    return hist   
 
 def calculate_metrics(hist,name,category):
-    hist = hist.copy() # data frame uzerınden degısıklık yapıcagımız ıcın kopyaladık
+    hist = hist.copy() 
     hist["Daily Return (%)"] = hist["Close"].pct_change() * 100
 
     total_return= ((hist["Close"].iloc[-1] / hist["Close"].iloc[0]) - 1 ) * 100
